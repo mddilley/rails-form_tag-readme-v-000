@@ -351,3 +351,10 @@ Processing by PostsController#index as HTML
   [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
   Rendered posts/index.html.erb within layouts/application (2.0ms)
 Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/posts/new" for 98.156.168.37 at 2019-01-10 19:07:02 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 280ms (Views: 270.3ms | ActiveRecord: 0.0ms)
